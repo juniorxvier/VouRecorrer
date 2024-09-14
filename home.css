@@ -390,6 +390,7 @@ ul img {
     }
 
     .carousel {
+        width: 100vw;
         height: 20vh;
         position: absolute;
         top: 23%;
@@ -397,6 +398,7 @@ ul img {
         display: flex;
         gap: 400px;
         margin-left: -70px;
+        left: 19%;
 
         .carousell-item:nth-child(1) {
             transform: rotateY(0deg) translateZ(100px);
@@ -440,6 +442,7 @@ ul img {
 
     .carousel-text {
         font-size: 1rem;
+        margin: 5px;
     }
 
     #h1 {
@@ -449,12 +452,11 @@ ul img {
     }
 
     #txt {
-        margin-top: 10px;
-        width: 375px;
         margin: 2px;
         font-size: 0.8rem;
         text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        left: 0%;
     }
 
     .navigation{
