@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-body, header, html {
+body, header, html, main, section {
     font-family: 'Manrope', sans-serif; /* Define a fonte global */
     background: rgb(27, 27, 27); /* Define a cor do texto */
     margin: 0; /* Remove as margens padrão */
