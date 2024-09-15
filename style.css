@@ -3,9 +3,12 @@
 
 body, header, html {
     font-family: 'Manrope', sans-serif; /* Define a fonte global */
-    background: black; /* Define a cor do texto */
+    background: rgb(68, 67, 67); /* Define a cor do texto */
     margin: 0; /* Remove as margens padrão */
     padding: 0; /* Remove o preenchimento padrão */
+}
+.navigation{
+    background-color: rgb(68, 67, 67);
 }
 
 h1{
