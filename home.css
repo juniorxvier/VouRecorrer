@@ -89,7 +89,7 @@ header {
     width: 28px;
     height: 3px;
     border-radius: 3px;
-    background-color: white;
+    background-color: rgb(255, 230, 0);
     margin: 5px auto;
     transition: all 0.3s;
 }
@@ -285,7 +285,7 @@ ul img {
     }
     
     .social {
-        left: 88%; /* Ajusta a posição horizontal */
+        left: 85%; /* Ajusta a posição horizontal */
         bottom: 90%; /* Ajusta a posição vertical */
         gap: 20px; /* Reduz o espaçamento entre os ícones */
     }
