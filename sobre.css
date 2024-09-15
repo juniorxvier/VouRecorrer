@@ -73,7 +73,7 @@ section{
 a:hover{
     transform: scale(1.1);
     background-color: black;
-    color: white;
+    color: rgb(240, 236, 0);
 }
 
 .cards{
