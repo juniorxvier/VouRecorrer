@@ -34,7 +34,7 @@ h2, h3{
 }
 
 .team-section {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(27, 27, 27);
     padding: 20px;
     text-align: center;
 }
@@ -63,7 +63,7 @@ h2, h3{
 
 .map-section {
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(27, 27, 27);
 }
 
 .map-container {
@@ -92,7 +92,7 @@ footer {
     font-weight: bolder;
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0px 1px 5px rgba(240, 240, 240, 0.719);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.719);
     border: none;
     border-radius: 50px;
     transition: transform 0.3s ease;
@@ -102,7 +102,7 @@ footer {
 input:hover{
     transform: scale(1.1);
     background-color: black;
-    color: white;
+    color: rgb(240, 236, 0);
 }
 
 footer a {
@@ -110,3 +110,53 @@ footer a {
     color: rgb(240, 236, 0);
 }
 
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .contact-info {
+        padding: 10px;
+    }
+
+    .team-section {
+        padding: 10px;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .team-member {
+        width: 230px;
+        margin-bottom: 15px;
+    }
+
+    .map-section {
+        padding: 10px;
+    }
+
+    .map-section .map-container iframe{
+        width: 330px;
+        height: 200px;
+    }
+
+    footer {
+        padding: 10px 5px;
+    }
+
+    .voltar {
+        position: relative;
+        left: 60%;
+        bottom: 10%;
+        margin-top: 20px;
+    }
+
+    .voltar input {
+        width: 120px;
+        height: 20px;
+        font-size: 0.8rem;
+    }
+}
