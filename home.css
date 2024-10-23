@@ -286,8 +286,8 @@ ul img {
     }
     
     .social {
-        left: 85%; /* Ajusta a posição horizontal */
-        bottom: 90%; /* Ajusta a posição vertical */
+        left: 80%; /* Ajusta a posição horizontal */
+        bottom: 93%; /* Ajusta a posição vertical */
         gap: 20px; /* Reduz o espaçamento entre os ícones */
     }
 
@@ -311,8 +311,7 @@ ul img {
 
     .carousel{
         height: 20vh;
-
-        top: 23%;
+        top: 15%;
         flex-wrap: wrap;
         display: flex;
     }
@@ -322,17 +321,20 @@ ul img {
         height: 70vh;
     }
 
+
     #h1{
         text-align: center;
     }
 
     #txt{
         margin-top: 0.1rem;
-        text-align: center;
+        text-align: justify;
         padding: 40px;
+        margin: 1rem;
     }
 
 }
+
 
 @media (max-width: 768px) {
     header {
@@ -340,8 +342,8 @@ ul img {
     }
 
     .social {
-        left: 72%; /* Ajusta a posição horizontal */
-        bottom: 91%; /* Ajusta a posição vertical */
+        left: 78%; /* Ajusta a posição horizontal */
+        bottom: 95%; /* Ajusta a posição vertical */
         gap: 20px; /* Reduz o espaçamento entre os ícones */
     }
 
@@ -364,7 +366,6 @@ ul img {
     .carousel-container {
         width: 280px;
         height: 300px;
-        margin-top: -50px;
     }
 }
 
@@ -378,8 +379,8 @@ ul img {
         top: 40%;
     }
     .social {
-        left: 68%; /* Ajusta a posição horizontal */
-        bottom: 87%; /* Ajusta a posição vertical */
+        left: 75%; /* Ajusta a posição horizontal */
+        bottom: 93%; /* Ajusta a posição vertical */
         gap: 20px; /* Reduz o espaçamento entre os ícones */
     }
 
@@ -387,6 +388,8 @@ ul img {
         width: 35px; /* Reduz o tamanho dos ícones */
         }
 }
+
+
 @media (max-width: 480px) {
     header {
         height: 60px;
@@ -463,6 +466,16 @@ ul img {
         font-size: 1rem;
         margin: 5px;
     }
+
+    .social {
+        left: 65%; /* Ajusta a posição horizontal */
+        bottom: 92%; /* Ajusta a posição vertical */
+        gap: 10px; /* Reduz o espaçamento entre os ícones */
+    }
+
+    .social img {
+        width: 35px; /* Reduz o tamanho dos ícones */
+        }
 
     #h1 {
         margin-top: 5px;
